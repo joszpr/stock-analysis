@@ -34,7 +34,7 @@ The run time for the same analysis using the refactored code was approximately .
 ### **Structure of the Code**
 ###### **Original**
 ![Original_Code_Sample](https://user-images.githubusercontent.com/85839235/124512063-870c3a80-dda5-11eb-9c86-dd53565053d6.png)
-The original code was a simpler design. It review over the data looking for a specific value and once it was done it would move into the next value and loop again until it captured the information for every stock.
+The original code was a simpler design. It reviewed the data looking for a specific value and once it was done it would move into the next value and loop again until it captured the information for every stock.
 
 ###### **Refactored**
 ![Refactored_Code_Sample](https://user-images.githubusercontent.com/85839235/124512092-955a5680-dda5-11eb-8bdd-abaee341f09f.png)
