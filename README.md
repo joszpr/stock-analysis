@@ -8,8 +8,9 @@ This is an example of the data analyzed. It contained over 3,000 lines of inform
 
 ### **Stock Performance**
 The original request for the construction of the code was to analyze the performance of the securities for Daqo New Energy “ticker: DQ” in order to evaluate it as an investment opportunity. The results of the analysis showed that “DQ” had a negative performance for the year 2018. It erased most of the gains from the year 2017. It was also traded about 3x more often during 2018 than on the previous year. While the trading volume metric by itself doesn’t provide sufficient data as a standalone metric, when paired with other pieces of information it may be something worthwhile to consider 1️⃣. Nonetheless the 3x increase on trading for the year 2018 and the loss of value of approximately 63% in value may be a reasonable call to research more about the company profitability and value before investing. With this in mind the code was expanded in order to analyze multiple stocks performance. 
-![Performance_Comparison](https://user-images.githubusercontent.com/85839235/124512938-a1471800-dda7-11eb-8ae0-c1e6031270ec.png)
 
+###### ** Stocks Performance Comparison**
+![Performance_Comparison](https://user-images.githubusercontent.com/85839235/124512938-a1471800-dda7-11eb-8ae0-c1e6031270ec.png)
 
 
 ### **Overview of the Code**
