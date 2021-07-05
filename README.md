@@ -3,7 +3,7 @@
 ### **Overview** ### 
 The purpose of this project was to create an Excel workbook that can analyze an entire dataset of stocks performance for a given year with buttons to initiate the code for a simple user interface. In order to analyze the performance of a stock and its annualized return, the data must include the ticker, the daily performance of the stock and the number of daily trades. This type of analysis will require a long list of information for the program to review in order to provide meaningful results. Depending on the quantity of stocks in the dataset, it could be thousands or hundreds of thousand of lines of data. In order to accomplish the goal of this analysis, a program capable of analyzing the correct areas of the data was created. Later that code was refactored, in other words, the design of the code was restructured in order to improve the speed of the analysis and the clarity of its operation. The outcome was a code capable of managing larger amounts of stocks data more efficiently. 
 
-![Example_of_Data](https://user-images.githubusercontent.com/85839235/124513211-44982d00-dda8-11eb-825c-bf962a2a6959.png)
+![Example_of_Data_Better](https://user-images.githubusercontent.com/85839235/124513381-aeb0d200-dda8-11eb-8076-3f482e312e96.png)
 This is an example of the data analyzed. It contained over 3,000 lines of information to analyze for only 12 stocks. 
 
 ### **Stock Performance**
