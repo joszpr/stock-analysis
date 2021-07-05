@@ -3,7 +3,7 @@
 ### **Overview** ### 
 The purpose of this project was to create an Excel workbook that can analyze an entire dataset of stocks performance for a given year with buttons to initiate the code for a simple user interface. In order to analyze the performance of a stock and its annualized return, the data must include the ticker, the daily performance of the stock and the number of daily trades. This type of analysis will require a long list of information for the program to review in order to provide meaningful results. Depending on the quantity of stocks in the dataset, it could be thousands or hundreds of thousand of lines of data. In order to accomplish the goal of this analysis, a program capable of analyzing the correct areas of the data was created. Later that code was refactored, in other words, the design of the code was restructured in order to improve the speed of the analysis and the clarity of its operation. The outcome was a code capable of managing larger amounts of stocks data more efficiently. 
 
-![Example_of_Data](https://user-images.githubusercontent.com/85839235/124511435-1c0e3400-dda4-11eb-9124-74919f7f7714.png)
+![Example_of_Data](https://user-images.githubusercontent.com/85839235/124513211-44982d00-dda8-11eb-825c-bf962a2a6959.png)
 This is an example of the data analyzed. It contained over 3,000 lines of information to analyze for only 12 stocks. 
 
 ### **Stock Performance**
@@ -20,10 +20,11 @@ The original request for the construction of the code was to analyze the perform
 Excel was used in order to source the data and to present the results of the analysis. VBA, or Visual Basic for Applications, was the programming software used to create the application. The original code was designed to identify the correct Excel Year workbook the user wanted to review, gather the necessary information for every stock and analyze the entire dataset multiple times in loops in order to provide a summary of the stock’s performance including the number of times it was traded during that year and its annualized return. The program also allowed the end user to activate the analysis with the click of a bottom within Excel. The user would receive a table of data that included the stock performance along with color formatting depending in its performance for the year. 
 
 ###### **Visual of User Interface**
-![Code_Example_1](https://user-images.githubusercontent.com/85839235/124511713-c8e8b100-dda4-11eb-9f58-78f4f369194a.png)
+![Code_Example_1](https://user-images.githubusercontent.com/85839235/124513240-55e13980-dda8-11eb-89ca-2fcb464f4e3b.png)
 
 ###### **Visual of Data Output**
-![Code_Example_2](https://user-images.githubusercontent.com/85839235/124511746-d9009080-dda4-11eb-96aa-34c49a8660d3.png)
+![Code_Example_2](https://user-images.githubusercontent.com/85839235/124513255-5f6aa180-dda8-11eb-955d-b49852b1e8b8.png)
+
 
 #### **Refactored**
 The original code performed the analysis and yield the results requested correctly. However, the method in which the code gathered the information, looping over all the data multiple times, was inefficient and would have required considerably longer amount of time in order to process larger datasets. In the refactoring process, the analysis of the information was kept the same but the process in which the information was taken from the dataset was improved. It allowed the code to gather the information requested from each row for all the stocks ticker and only needed to loop over the dataset once. This resulted in a code that was 5 times faster than the original but returned the same analysis and results. 
