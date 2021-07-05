@@ -45,7 +45,7 @@ It is reasonable to conclude that the refactored code is faster and more effecti
 
 
 ### **Conclusion on the practice of refactoring**
-The original design of a successful code will not always be the best way to achieve the result wanted or the most efficient path. Refactoring will arguably be a noble goal to pursue in the writing of codes and analysis but may not always be necessary. It would be wise to adjust the scope in designing a code depending on its intended purpose. For a small set of data or an analysis that will be used infrequently or even once, refactoring may not be necessary. It may be even detrimental for an Analyst to refactor or optimize every code if there is no gain or purpose for it. It may take valuable time or resources that may be better used other tasks or parts of the analysis. Refactoring will be a good practice when writing code if the task calls for it. 
+The original design of a successful code will not always be the best way to achieve the result wanted or the most efficient path. Refactoring will arguably be a noble goal to pursue in the writing of codes and analysis but may not always be necessary. It would be wise to adjust the scope in designing a code depending on its intended purpose. For a small set of data or an analysis that will be used infrequently or even once, refactoring may not be necessary. It may be even detrimental for an Analyst to refactor or optimize every code if there is no gain or purpose for it. It may take valuable time or resources that may be better used in other tasks or parts of the analysis. Refactoring will be a good practice when writing code if the task calls for it. 
 
 ### Reference Links
 
